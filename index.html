@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,143 +6,105 @@
     <meta name="description" content="Website">
 
     <title>AnkaV Consulting</title>
-	  <link rel="icon" type="image/x-icon" href="/img/logo/logo.jpeg">
+    <link rel="icon" type="image/x-icon" href="/img/logo/logo.jpeg">
 
-	<style>
-	body {
-	height: 100%;
-	padding:0;
-	margin:0;
-	background-color:#9B9999;
-  font-family: Arial, Helvetica, sans-serif;
-       }
+    <style>
+      body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #f2f4f8; /* lighter background */
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+      }
 
-  .navbar {
-    overflow: hidden;
-    background-color: #35424a;
-    border-bottom:#e8491d 3px solid;
-    position: fixed;
-    top: 0;
-    width: 100%;
-          }
+      .navbar {
+        overflow: hidden;
+        background-color: #3b556b; /* lighter, more modern blue-gray */
+        border-bottom: #ff7043 3px solid; /* brighter orange accent */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
 
-  .navbar a {
-          float: left;
-          display: block;
-          font-size: 16px;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-            }
+      .navbar a {
+        float: left;
+        display: block;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: #e8491d;
-                                            }
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #ff7043; /* brighter hover color */
+        color: #fff;
+      }
 
-  .main {
-            /* padding: 16px; */
-            margin-top: 70px;
-            /* height: 1500px; /* Used in this example to enable scrolling */ */
-        }
-      h1 {
-            margin-left:10px;
-            margin-right:10px;
-         }
+      .main {
+        margin-top: 80px;
+        padding: 20px;
+      }
 
-  h2 {
-    margin-left:10px;
-    margin-right:10px;
-     }
+      h1, h2, h3, h4, p, li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
 
-  p {
-           font-size: 120%;
-           padding-left: 10px;
-           padding-right: 10px;
-    }
+      h2 {
+        color: #3b556b; /* match navbar tone */
+      }
 
-  h3 {margin-left:10px;
-         margin-right:10px;
-     }
+      p, li {
+        font-size: 120%;
+      }
 
-     h4 {
-             margin-left:10px;
-             margin-right:10px;
-        }
+      ul {
+        list-style-type: disc;
+        padding-left: 30px;
+      }
 
-img {
+      img {
         max-width: 100%;
         height: auto;
-    }
-
-	</style>
+      }
+    </style>
   </head>
+
   <body>
+    <div class="navbar">
+      <a href="https://dvisan.github.io/test/">
+        <img src="img/logo/logo_new.jpeg" width="16px" height="32px" alt="AnkaV Logo">
+      </a>
+      <a href="https://dvisan.github.io/test/">Home</a>
+      <a href="#">Articles</a>
+      <a href="#">About</a>
+    </div>
 
+    <div class="main">
+      <p>
+        Welcome! This website provides references to my publicly-available professional work. Why the simple design?
+      </p>
 
-        <div class="navbar">
-          <span style="color:#e8491d ;font-size:100%"><a href="https://dvisan.github.io/test/"><img src="img/logo/logo_new.jpeg" width="16px" height="32px"></a> </span>
+      <ul>
+        <li><b>Accessible:</b> Not everyone has high-speed Internet access.
+          You won't find clunky images, videos, or advertisements.
+          This site is mobile-friendly.</li>
+        <li><b>Navigable:</b> Most of this website is plain text
+          and can be searched using browser search tools.
+          Every resource on this website is within two clicks.</li>
+      </ul>
 
+      <br>
+      <h2>Content</h2><br>
 
-
-
-            <a href="https://dvisan.github.io/test/" style="text-decoration:none; color:white;">Home</a>
-            <a href="#" style="text-decoration:none;color:white;" >Articles</a>
-            <a href="#" style="text-decoration:none ;color:white;";>About</a>
-
-</div>
-
-
-
-<div class="main">
-
-
-
-
-
-
-   <p style="font-size:120%">
-    Welcome! This website provides references to my publicly-available professional work. Why the simple design?
-
-   </p>
-	   <ul>
-    <li style="font-size:120%">
-
-      <b>Accessible: </b> Not everyone has high-speed Internet access.
-      You won't find clunky images, videos, or advertisements.
-      This site is mobile-friendly.
-    </li>
-    <li style="font-size:120%">
-
-      <b>Navigable: </b>Most of this website is plain text
-      and can be searched using browser search tools.
-      Every resource on this website is within two clicks.
-    </li>
-
-
-  </ul><br>
-	   <h2>Content</h2><br>
-
-	   <ul>
-    <li style="font-size:120%">About Me</li><br>
-    <li style="font-size:120%">Blog Posts and Announcements</li><br>
-  
-
-
-  </ul> <br>
-
-
-
-
-
-
-
-
-
-
-</div>
+      <ul>
+        <li>About Me</li><br>
+        <li>Blog Posts and Announcements</li><br>
+      </ul>
+    </div>
   </body>
 </html>
-
-
-
