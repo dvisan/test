@@ -1,130 +1,92 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact AnkaV Consulting">
-  <title>Contact – AnkaV Consulting</title>
-  <link rel="icon" type="image/x-icon" href="/img/logo/logo.jpeg">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website">
 
-  <style>
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      background-color: #9B9999;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+    <title>AnkaV Consulting</title>
+    <link rel="icon" type="image/x-icon" href="img/logo2.jpeg">
 
-    .navbar {
-      overflow: hidden;
-      background-color: #35424a;
-      border-bottom: #e8491d 3px solid;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 10;
-    }
-
-    .navbar a {
-      float: left;
-      display: block;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    .navbar a:hover {
-      background-color: #e8491d;
-    }
-
-    .main {
-      margin-top: 80px;
-      padding: 20px;
-    }
-
-    h1, h2, h3, h4, p {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    .contact-section {
-      background-color: #f4f4f4;
-      border-radius: 8px;
-      padding: 20px;
-      max-width: 700px;
-      margin: 0 auto;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-    }
-
-    .contact-info {
-      font-size: 110%;
-      line-height: 1.8;
-    }
-
-    .contact-info a {
-      color: #e8491d;
-      text-decoration: none;
-    }
-
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      margin-top: 20px;
-    }
-
-    input, textarea {
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 16px;
-    }
-
-    button {
-      background-color: #35424a;
-      color: white;
-      border: none;
-      padding: 12px;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-
-    button:hover {
-      background-color: #e8491d;
-    }
-
-    @media (max-width: 600px) {
-      .contact-section {
-        padding: 15px;
+    <style>
+      body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #f2f4f8; /* lighter background */
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
       }
-    }
-  </style>
-</head>
 
-<body>
+      .navbar {
+        overflow: hidden;
+        background-color: #074F9C; /* blue like logo */
+        border-bottom: #3b556b 3px solid; /* lighter, more modern blue-gray */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
 
-  <!-- Navbar -->
-  <div class="navbar">
-    <span style="color:#e8491d; font-size:100%">
+      .navbar a {
+        float: left;
+        display: block;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #82ABAB; /* some grey shade */
+        color: #fff;
+      }
+
+      .main {
+        margin-top: 80px;
+        padding: 20px;
+      }
+
+      h1, h2, h3, h4, p, li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      h2 {
+        color: #3b556b; /* match navbar tone */
+      }
+
+      p, li {
+        font-size: 120%;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 30px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
       <a href="https://dvisan.github.io/test/">
-        <img src="img/logo/logo_new.jpeg" width="16" height="32" alt="AnkaV Consulting logo">
+        <img src="img/logo2.jpeg" width="24px" height="48px" alt="AnkaV Logo">
       </a>
-    </span>
-    <a href="https://dvisan.github.io/test/">Home</a>
-    <a href="#">Articles</a>
-    <a href="#">About</a>
-    <a href="#" style="background-color:#e8491d;">Contact</a>
-  </div>
+      <a href="https://dvisan.github.io/test/">Acasă</a>
+      <a href="#">Servicii</a>
+      <a href="https://dvisan.github.io/test/contact.html">Contact</a>
+    </div>
 
-  <!-- Main Content -->
+    <div class="main">
+       <!-- Main Content -->
   <div class="main">
     <div class="contact-section">
       <h1>Contact Us</h1>
@@ -152,6 +114,16 @@
       </form>
     </div>
   </div>
-
-</body>
+    </div>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
